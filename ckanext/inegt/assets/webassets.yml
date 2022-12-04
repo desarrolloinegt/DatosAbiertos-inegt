@@ -1,0 +1,4 @@
+ine-css:
+  contents:
+    - ine_style.css
+  filters: cssrewrite

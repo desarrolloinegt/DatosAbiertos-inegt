@@ -1,0 +1,91 @@
+<footer>
+  <div class="site-footer">
+    <div class="container">
+      {% block footer_content %}
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="footer-images">
+            <a href="http://www.lapaz.bo/" class="footer-logo">
+              <img
+                alt="{% trans %}Site logo{% endtrans %}"
+                src="/lapaz-negro.png"
+              />
+            </a>
+          </div>
+          <p>
+            Portal de Datos Abiertos del Gobierno Autónomo Municipal de La Paz
+          </p>
+          <div class="social-media">
+            <a
+              aria-label="facebook"
+              href="https://www.facebook.com/MunicipioLaPaz/"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a
+              aria-label="twitter"
+              href="https://twitter.com/LaPazAlcaldia"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a
+              aria-label="youtube"
+              href="https://www.youtube.com/c/Alcald%C3%ADaLaPazGAMLP"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 footer-links">
+          {% block footer_nav %}
+          <h2>Secciones</h2>
+          <ul class="list-unstyled">
+            {{ h.build_nav('dataset.search', _('Datasets')) }}
+            {{h.build_nav('group.index', _('Categories')) }} {{
+            h.build_nav('home.about', _('Help')) }} {{
+            h.build_nav('dataset.search', _('Featured initiatives')) }}
+          </ul>
+
+          {% endblock %}
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <h2>Enlaces internos</h2>
+          <ul class="list-unstyled">
+            <li><a href="/">Políticas de privacidad</a></li>
+            <li><a href="#">Normativas</a></li>
+            <li><a href="#">Habilitación en datos.gob</a></li>
+            <li><a href="#">Notificar error</a></li>
+          </ul>
+          <h2>Ayuda institucional</h2>
+          <ul class="list-unstyled">
+            <li><a href="mailto:datosabiertos@lapaz.bo">datosabiertos@lapaz.bo</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 attribution">
+          <h2>Con la colaboración de:</h2>
+          <div class="footer-images">
+            <img alt="Madrid" class="footer-logo" src="/madrid.png" />
+            <a href="https://ciudadesiberoamericanas.org" class="footer-logo">
+              <img alt="UCCI" src="/ucci.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endblock %}
+    </div>
+  </div>
+
+  <div class="footer-credits container" style="display: none">
+    <img src="redciudadana.png" />
+    <p>
+      {% trans %}Developed by civil association Red Ciudadana®{% endtrans %}
+    </p>
+  </div>
+
+  {% block footer_debug %} {% if g.debug %} {% include 'snippets/debug.html' %}
+  {% endif %} {% endblock %}
+</footer>

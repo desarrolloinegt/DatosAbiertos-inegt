@@ -1,0 +1,11 @@
+{% set intro = g.site_intro_text %} {% set title = g.site_title %}
+
+<div class="module-content text-center">
+  {% if intro %} {{ h.render_markdown(intro) }} {% else %}
+  <p>
+    {% trans %}This is a nice introductory paragraph about CKAN or the site in
+    general. We don't have any copy to go here yet but soon we will {% endtrans
+    %}
+  </p>
+  {% endif %}
+</div>

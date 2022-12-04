@@ -1,0 +1,102 @@
+<main>
+  <div class="main hero">
+    <div class="container text">
+      {% block promoted %} {% snippet 'home/snippets/promoted.html' %} {%
+      endblock %}
+    </div>
+    <div class="hero-content">
+      {% block search %} {% snippet 'home/snippets/search.html' %} {% endblock
+      %}
+    </div>
+  </div>
+
+  <section
+    aria-labelledby="data-categories-title"
+    class="container data-categories-section"
+  >
+    <h1 id="data-categories-title">Categorías de datos</h1>
+    <div class="data-categories-container">
+      {% for group in h.ine_groups() %}
+      <a
+        href="{{ h.url_for('group.read', id=group.id) }}"
+        aria-labelledby="category-title-{{ group.id }}"
+        class="data-category"
+      >
+        {% if group.image_url %}
+        <img src="{{ group.image_display_url }}" />
+        {% endif %}
+        <h2 id="category-title-{{ group.id }}">{{ group.display_name }}</h2>
+        <p>
+          {% trans count=group.package_count %} {{ count }} conjunto de datos {% pluralize
+          %} {{ count }} conjuntos de datos {% endtrans %}
+        </p>
+      </a>
+      {% endfor %}
+      <a class="all-data-link" href="/group">
+        {% trans %}Ver todas las categorías{% endtrans %}
+        <i class="fa fa-arrow-right" aria-hidden="true" role="presentation"></i>
+      </a>
+    </div>
+  </section>
+
+  <section
+    aria-labelledby="functions-section-title"
+    class="functions-section"
+  >
+    <div class="container">
+      <h1 id="functions-section-title">Funciones</h1>
+      <div class="functions-container">
+        <div class="function">
+          <img src="/function1.png" aria-hidden="true" role="presentation" />
+          <h2>Publicar</h2>
+          <p>
+           Pone a disposición datos en formatos de interés ciudadanos
+          </p>
+        </div>
+        <div class="function">
+          <img src="/function2.png" aria-hidden="true" role="presentation" />
+          <h2>Descarga</h2>
+          <p>
+            Rápida y fácil descarga de datos en diferentes formatos
+          </p>
+        </div>
+        <div class="function">
+          <img src="/function3.png" aria-hidden="true" role="presentation" />
+          <h2>API</h2>
+          <p>
+            El portal de datos cuenta con una API para facilitar el consumo de
+            recursos disponibles por parte de los reutilizadores de datos
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    aria-labelledby="recent-datasets-title"
+    class="container data-categories-section"
+  >
+    <h1 id="recent-datasets-title">
+      Conjuntos recientes
+    </h1>
+    <div class="data-categories-container">
+      {% for package in h.ine_latest_packages() %}
+      <a
+        href="{{ h.url_for('dataset.read', id=package.id) }}"
+        aria-labelledby="dataset-title-{{ package.id }}"
+        class="data-category"
+      >
+        <h2 id="dataset-title-{{ package.id }}">{{ package.title }}</h2>
+        <p>
+          {% trans count=package.num_resources %} {{ count }} recurso {%
+          pluralize %} {{ count }} recursos {% endtrans %}
+        </p>
+      </a>
+      {% endfor %}
+      <a class="all-data-link" href="/dataset">
+        Ver todos los conjuntos de datos
+        <i class="fa fa-arrow-right" aria-hidden="true" role="presentation"></i>
+      </a>
+    </div>
+  </section>
+</main>
