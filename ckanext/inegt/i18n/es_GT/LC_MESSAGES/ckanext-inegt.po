@@ -1,0 +1,128 @@
+# Spanish (Guatemala) translations for ckanext-inegt.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the ckanext-inegt
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-inegt 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-12-09 16:49+0000\n"
+"PO-Revision-Date: 2022-12-09 16:50+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es_GT\n"
+"Language-Team: es_GT <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ckanext/inegt/templates/footer.html:10
+msgid "Site logo"
+msgstr "Logo del sitio"
+
+#: ckanext/inegt/templates/footer.html:46
+#: ckanext/inegt/templates/header.html:57
+msgid "Datasets"
+msgstr "Conjuntos de datos"
+
+#: ckanext/inegt/templates/footer.html:47
+msgid "Categories"
+msgstr "Categorías"
+
+#: ckanext/inegt/templates/footer.html:48
+msgid "Help"
+msgstr "Ayuda"
+
+#: ckanext/inegt/templates/footer.html:49
+msgid "Featured initiatives"
+msgstr "Iniciativas destacadas"
+
+#: ckanext/inegt/templates/footer.html:85
+msgid "Developed by civil association Red Ciudadana®"
+msgstr "Desarrollado por asociación civil Red Ciudadana®"
+
+#: ckanext/inegt/templates/header.html:11
+msgid "Sysadmin settings"
+msgstr "Ajustes de sysadmin"
+
+#: ckanext/inegt/templates/header.html:13
+msgid "Admin"
+msgstr "Admin"
+
+#: ckanext/inegt/templates/header.html:19
+msgid "View profile"
+msgstr "Ver perfil"
+
+#: ckanext/inegt/templates/header.html:27
+msgid "View dashboard"
+msgstr "Ver dashboard"
+
+#: ckanext/inegt/templates/header.html:29
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: ckanext/inegt/templates/header.html:35
+#: ckanext/inegt/templates/header.html:37
+msgid "Profile settings"
+msgstr "Ajustes de perfil"
+
+#: ckanext/inegt/templates/header.html:42
+#: ckanext/inegt/templates/header.html:44
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: ckanext/inegt/templates/header.html:57
+msgid "Home"
+msgstr "Inicio"
+
+#: ckanext/inegt/templates/header.html:61
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: ckanext/inegt/templates/home/index.html:4
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: ckanext/inegt/templates/home/layout1.html:30
+#, python-format
+msgid "%(count)s conjunto de datos"
+msgid_plural "%(count)s conjuntos de datos"
+msgstr[0] "%(count)s conjunto de datos"
+msgstr[1] "%(count)s conjuntos de datos"
+
+#: ckanext/inegt/templates/home/layout1.html:36
+msgid "Ver todas las categorías"
+msgstr "Ver todas las categorías"
+
+#: ckanext/inegt/templates/home/layout1.html:91
+#, python-format
+msgid "%(count)s recurso"
+msgid_plural "%(count)s recursos"
+msgstr[0] "%(count)s recurso"
+msgstr[1] "%(count)s recursos"
+
+#: ckanext/inegt/templates/home/snippets/promoted.html:6
+msgid ""
+"This is a nice introductory paragraph about CKAN or the site in general. "
+"We don't have any copy to go here yet but soon we will"
+msgstr "This is a nice introductory paragraph about CKAN or the site in general."
+
+#: ckanext/inegt/templates/home/snippets/search.html:2
+msgid "E.g. environment"
+msgstr "e.g. environment"
+
+#: ckanext/inegt/templates/home/snippets/search.html:12
+msgid "Search datasets"
+msgstr "Buscar conjuntos de datos"
+
+#: ckanext/inegt/templates/home/snippets/search.html:23
+msgid "Search"
+msgstr "Buscar"
+
+#: ckanext/inegt/templates/home/snippets/search.html:28
+msgid "Popular tags"
+msgstr "Etiquetas populares"
+
