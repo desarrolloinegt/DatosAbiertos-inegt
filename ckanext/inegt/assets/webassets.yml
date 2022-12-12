@@ -1,4 +1,5 @@
 ine-css:
   contents:
     - ine_style.css
-  filters: cssrewrite
+  filters: cssmin
+  output: ine_style/ine_%(version)s.css
