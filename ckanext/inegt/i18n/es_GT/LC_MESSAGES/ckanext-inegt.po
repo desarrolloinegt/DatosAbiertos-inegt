@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-inegt 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-09 16:49+0000\n"
+"POT-Creation-Date: 2022-12-21 17:09+0000\n"
 "PO-Revision-Date: 2022-12-09 16:50+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es_GT\n"
@@ -23,26 +23,26 @@ msgstr ""
 msgid "Site logo"
 msgstr "Logo del sitio"
 
-#: ckanext/inegt/templates/footer.html:46
+#: ckanext/inegt/templates/footer.html:43
 #: ckanext/inegt/templates/header.html:57
 msgid "Datasets"
 msgstr "Conjuntos de datos"
 
-#: ckanext/inegt/templates/footer.html:47
+#: ckanext/inegt/templates/footer.html:44
 msgid "Categories"
 msgstr "Categorías"
 
-#: ckanext/inegt/templates/footer.html:48
+#: ckanext/inegt/templates/footer.html:45
 msgid "Help"
 msgstr "Ayuda"
 
-#: ckanext/inegt/templates/footer.html:49
+#: ckanext/inegt/templates/footer.html:46
 msgid "Featured initiatives"
 msgstr "Iniciativas destacadas"
 
-#: ckanext/inegt/templates/footer.html:85
+#: ckanext/inegt/templates/footer.html:76
 msgid "Developed by civil association Red Ciudadana®"
-msgstr "Desarrollado por asociación civil Red Ciudadana®"
+msgstr "Desarrollado por asociación civil Red Ciudadana ®"
 
 #: ckanext/inegt/templates/header.html:11
 msgid "Sysadmin settings"
@@ -112,7 +112,7 @@ msgstr "This is a nice introductory paragraph about CKAN or the site in general.
 
 #: ckanext/inegt/templates/home/snippets/search.html:2
 msgid "E.g. environment"
-msgstr "e.g. environment"
+msgstr "e.g. ambiente"
 
 #: ckanext/inegt/templates/home/snippets/search.html:12
 msgid "Search datasets"

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ckanext-inegt 0.0.1\n"
+"Project-Id-Version: ckanext-inegt 0.0.2\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-09 16:49+0000\n"
+"POT-Creation-Date: 2022-12-21 17:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,23 +21,23 @@ msgstr ""
 msgid "Site logo"
 msgstr ""
 
-#: ckanext/inegt/templates/footer.html:46 ckanext/inegt/templates/header.html:57
+#: ckanext/inegt/templates/footer.html:43 ckanext/inegt/templates/header.html:57
 msgid "Datasets"
 msgstr ""
 
-#: ckanext/inegt/templates/footer.html:47
+#: ckanext/inegt/templates/footer.html:44
 msgid "Categories"
 msgstr ""
 
-#: ckanext/inegt/templates/footer.html:48
+#: ckanext/inegt/templates/footer.html:45
 msgid "Help"
 msgstr ""
 
-#: ckanext/inegt/templates/footer.html:49
+#: ckanext/inegt/templates/footer.html:46
 msgid "Featured initiatives"
 msgstr ""
 
-#: ckanext/inegt/templates/footer.html:85
+#: ckanext/inegt/templates/footer.html:76
 msgid "Developed by civil association Red Ciudadana®"
 msgstr ""
 
