@@ -5,34 +5,31 @@
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="footer-images">
-            <a href="http://www.lapaz.bo/" class="footer-logo">
+            <a href="https://www.ine.gob.gt/" class="footer-logo">
               <img
                 alt="{% trans %}Site logo{% endtrans %}"
-                src="/lapaz-negro.png"
+                src="/INE.png"
               />
             </a>
           </div>
-          <p>
-            Portal de Datos Abiertos del Gobierno Autónomo Municipal de La Paz
-          </p>
           <div class="social-media">
             <a
               aria-label="facebook"
-              href="https://www.facebook.com/MunicipioLaPaz/"
+              href="https://www.facebook.com/estadisticagt/"
               rel="noopener noreferrer"
             >
               <i class="fa fa-facebook"></i>
             </a>
             <a
               aria-label="twitter"
-              href="https://twitter.com/LaPazAlcaldia"
+              href="https://twitter.com/ine_guatemala"
               rel="noopener noreferrer"
             >
               <i class="fa fa-twitter"></i>
             </a>
             <a
               aria-label="youtube"
-              href="https://www.youtube.com/c/Alcald%C3%ADaLaPazGAMLP"
+              href="https://www.youtube.com/channel/UCTmdHAWP_fUAnFVhokct57g"
               rel="noopener noreferrer"
             >
               <i class="fa fa-youtube"></i>
@@ -59,31 +56,31 @@
             <li><a href="#">Habilitación en datos.gob</a></li>
             <li><a href="#">Notificar error</a></li>
           </ul>
-          <h2>Ayuda institucional</h2>
-          <ul class="list-unstyled">
-            <li><a href="mailto:datosabiertos@lapaz.bo">datosabiertos@lapaz.bo</a></li>
-          </ul>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3 attribution">
-          <h2>Con la colaboración de:</h2>
-          <div class="footer-images">
-            <img alt="Madrid" class="footer-logo" src="/madrid.png" />
-            <a href="https://ciudadesiberoamericanas.org" class="footer-logo">
-              <img alt="UCCI" src="/ucci.png" />
-            </a>
-          </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <h2>Ayuda institucional</h2>
+          <ul class="list-unstyled">
+            <li><a href="#">Ingreso de solicitud de ayuda</a></li>
+          </ul>
         </div>
       </div>
       {% endblock %}
     </div>
   </div>
 
-  <div class="footer-credits container" style="display: none">
-    <img src="redciudadana.png" />
-    <p>
-      {% trans %}Developed by civil association Red Ciudadana®{% endtrans %}
-    </p>
+  <div class="footer-credits">
+    <div class="container">
+      <img src="redciudadana.png" />
+      <p>
+        {% trans %}Developed by civil association Red Ciudadana®{% endtrans %}
+      </p>
+      <div class="icons">
+        <img src="/cc.png" />
+        <img src="/person.png" />
+        <img src="cycle.png" />
+      </div>
+    </div>
   </div>
 
   {% block footer_debug %} {% if g.debug %} {% include 'snippets/debug.html' %}

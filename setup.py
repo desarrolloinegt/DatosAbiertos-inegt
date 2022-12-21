@@ -16,7 +16,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
-    version='0.0.1',
+    version='0.0.2',
 
     description='''CKAN theme plugin for I"Instituto nacional de estadística" in Guatemala''',
     long_description=long_description,
