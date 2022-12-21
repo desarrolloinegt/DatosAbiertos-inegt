@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-inegt 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-21 17:09+0000\n"
-"PO-Revision-Date: 2022-12-09 16:50+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-12-21 17:24+0000\n"
+"PO-Revision-Date: 2022-12-21 18:23+0100\n"
+"Last-Translator: \n"
 "Language: es_GT\n"
 "Language-Team: es_GT <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -39,10 +39,6 @@ msgstr "Ayuda"
 #: ckanext/inegt/templates/footer.html:46
 msgid "Featured initiatives"
 msgstr "Iniciativas destacadas"
-
-#: ckanext/inegt/templates/footer.html:76
-msgid "Developed by civil association Red Ciudadana®"
-msgstr "Desarrollado por asociación civil Red Ciudadana ®"
 
 #: ckanext/inegt/templates/header.html:11
 msgid "Sysadmin settings"
@@ -108,7 +104,7 @@ msgstr[1] "%(count)s recursos"
 msgid ""
 "This is a nice introductory paragraph about CKAN or the site in general. "
 "We don't have any copy to go here yet but soon we will"
-msgstr "This is a nice introductory paragraph about CKAN or the site in general."
+msgstr "This is a nice introductory paragraph about CKAN or the site in general"
 
 #: ckanext/inegt/templates/home/snippets/search.html:2
 msgid "E.g. environment"
@@ -125,4 +121,7 @@ msgstr "Buscar"
 #: ckanext/inegt/templates/home/snippets/search.html:28
 msgid "Popular tags"
 msgstr "Etiquetas populares"
+
+#~ msgid "Developed by civil association Red Ciudadana®"
+#~ msgstr "Desarrollado por asociación civil Red Ciudadana®"
 
