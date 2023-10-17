@@ -108,9 +108,9 @@ main,
 .hero-content .tags {
   /*padding: 10px 15px;*/
   padding-top: 10px;
-  padding-right: 100px;
+  padding-right: 15px;
   padding-bottom: 10px;
-  padding-left: 15px;
+  padding-left: 100px;
 }
 
 @media all and (min-width: 768px) {
